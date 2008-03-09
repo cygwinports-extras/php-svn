@@ -1,0 +1,65 @@
+php-svn
+------------------------------------------
+PHP Bindings for the Subversion Revision control system.
+
+Runtime requirements:
+  cygwin-1.5.25-7
+  libapr1-1.2.11-1
+  php-5.2.5-1
+  subversion-1.4.5-2
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.10-1.10-1
+  binutils-20060817-1
+  cygport-0.3.8-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  php-pear-5.2.5-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://pecl.php.net/package/svn/
+
+Canonical download:
+  http://pecl.php.net/get/svn
+
+-------------------------------------------
+
+Build instructions:
+  unpack php-svn-0.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./php-svn-0.3-X.cygport all
+
+This will create:
+  /usr/src/php-svn-0.3-X-src.tar.bz2
+  /usr/src/php-svn-0.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/php5/conf.d/svn.ini
+  /usr/lib/php/20060613/svn.dll
+  /usr/share/doc/php-svn-0.3/CREDITS
+  /usr/share/pear/.registry/.channel.pecl.php.net/svn.reg
+  /usr/share/pear/doc/svn/CREDITS
+  /usr/share/pear/doc/svn/EXPERIMENTAL
+  /usr/share/pear/doc/svn/examples/hook_copycommit.php
+  /usr/share/pear/doc/svn/examples/hook_emailcommit.php
+
+------------------
+
+Port Notes:
+
+----- version 0.3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
