@@ -1,4 +1,4 @@
 category: Devel PHP
-requires: cygwin php libapr1 subversion
+requires: php libapr1 subversion
 sdesc: "PHP Subversion extension"
 ldesc: "PHP Bindings for the Subversion Revision control system."
